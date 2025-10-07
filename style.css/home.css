@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Bungee&family=Dancing+Script:wght@400..700&family=Playwrite+AU+QLD:wght@100..400&family=Tagesschrift&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+}
+.brand h1{
+    color:rgb(233, 235, 236);
+    font-size: 50px;
+}
+.brand h3{
+    color:rgb(233, 235, 236);
+    font-size: 20px;
+    font-family:Dancing Script ;
+}
+/*styling button*/
+.brand button{
+    align-items: center;
+    justify-content:center;
+    border: none;
+    border-radius: 10px;
+    height:50px;
+    width:100px;
+    background-color: rgb(204, 158, 89);
+}
+
+/*styling navigation bar*/
+.navbar{
+    padding-left: 30px;
+    text-align: center;
+
+}
+.navbar p{
+    padding-top:10px;
+    font-size: 13px;
+    color:white;
+
+}
+
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    gap:inherit;
+     padding: 30px;
+     margin-left: 70px;
+     row-gap: 30px;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+.nav input{
+    width:200px;
+}
+.nav a{
+    
+    color:white;
+        
+}
+/*change the color while hovering on the navigation link*/
+.nav a:hover{
+    color:burlywood;
+}
+/*change the color while hovering on the button*/
+
+.nav button:hover{
+    color:blueviolet;
+}
+/*adding an image on the background of the header*/
+header{
+    height:500px;
+    background-image: url('../image/backg.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+/*styling section*/
+.image img{
+    display:grid;
+
+    width:200px;
+    height:200px;
+    padding-top:30px;
+    border-image-width: 10px;
+    display:flex;
+    flex-direction: row;
+
+}
+
