@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+/*styling header*/
+header{ 
+    background-color: rgb(117, 114, 109);
+    width:cover;
+    height:20px;
+    border-radius:10px;
+
+}
+/*styling navigation links*/
+.nav{
+    margin:10px;
+    text-align: center;
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap:50px;
+
+}
+.nav a{
+    color:white;
+}

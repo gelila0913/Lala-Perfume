@@ -84,4 +84,35 @@ header{
     flex-direction: row;
 
 }
+footer {
+    margin-top: 50px;
+    background-color: rgb(117, 114, 109); 
+    color:white;
+    padding: 30px 20px;
+    text-align: center;
+    border-top: 2px solid #f0e6dc;
+  }
+  footer .footer-links {
+    margin: 15px 0;
+  }
+  footer .footer-links a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+  }
+  footer .footer-links a:hover {
+    color: #dbced0; /* elegant perfume-like shade */
+  }
+  footer .social-icons {
+    margin: 15px 0;
+  }
+  footer .social-icons a {
+    margin: 0 8px;
+    font-size: 20px;
+    color: #444;
+  }
+  footer .social-icons a:hover {
+    color: #b76e79;
+  }
 
