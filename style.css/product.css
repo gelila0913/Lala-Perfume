@@ -57,6 +57,9 @@ footer {
   footer .social-icons a:hover {
     color: #b76e79;
   }
+  h3{
+    margin-left: 20px;
+  }
   .pic img{
     width:100px;
     margin:5px;
@@ -67,8 +70,21 @@ footer {
     display:flex;  
     justify-content: space-between;
     margin:30px;
+    margin-left: 50px;
+    margin-right: 150px;
+  }
+  .dis img{
+    align-items: center
+        background-color: bisque;
+
   }
   .dis p{
     color:;
     margin-left:10px;
   }
+.dis img:hover{
+  transform:scale(1.1);
+}
+.dis button:hover{
+  color:white;
+}
