@@ -8,6 +8,10 @@ header{
     width:cover;
     height:20px;
     border-radius:10px;
+    position: sticky;
+    top:0;
+    left:0;
+    z-index:1000;
 
 }
 /*styling navigation links*/
@@ -96,4 +100,54 @@ footer {
 .dis{
   border-radius: 20px;
   background-color: rgb(237, 243, 186);
+}
+/*responsiveness*/
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav ul {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .brand h1 {
+    font-size: 24px;
+  }
+
+  .brand h3 {
+    font-size: 14px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  header p {
+    font-size: 12px;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav div {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav input {
+    width: 100%;
+  }
+
+  .brand h1 {
+    font-size: 20px;
+  }
+
+  .image img {
+    max-width: 100%;
+  }
 }
